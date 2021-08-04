@@ -102,8 +102,8 @@ public class ImportGLTF : MonoBehaviour
 
         if (loadmodel < 0)
         {
-            obj.transform.SetPositionAndRotation(modelPose[3].position, modelPose[3].rotation);
-            obj.transform.localScale = modelPose[3].scale;
+            obj.transform.SetPositionAndRotation(modelPose[4].position, modelPose[4].rotation);
+            obj.transform.localScale = modelPose[4].scale;
         }
         else {
             obj.transform.SetPositionAndRotation(modelPose[loadmodel].position, modelPose[loadmodel].rotation);
